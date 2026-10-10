@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Touchline Removals | Furniture Removals, Rubble & Garden Waste, Trailer Hire in Cape Town</title>
+<meta name="description" content="Touchline Removals in Cape Town. Furniture removals, rubble and building waste, garden clearing and trailer hire. Same day service, 7 days a week. Call or WhatsApp 062 552 2935.">
+<meta property="og:title" content="Touchline Removals | Cape Town">
+<meta property="og:description" content="Furniture removals, rubble and garden waste clearing, and trailer hire. Same day service, 7 days a week.">
+<meta property="og:image" content="images/banner.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#173f7a;
+  --navy-dark:#0e2a55;
+  --orange:#f58220;
+  --orange-dark:#d96d10;
+  --ink:#1b2433;
+  --muted:#5b667a;
+  --bg:#ffffff;
+  --soft:#f3f6fb;
+  --radius:14px;
+  --shadow:0 10px 30px rgba(14,42,85,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:Montserrat,sans-serif;line-height:1.15;color:var(--navy-dark)}
+.wrap{width:min(1160px,92%);margin-inline:auto}
+section{padding:84px 0}
+.eyebrow{font-family:Montserrat,sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:10px}
+.section-head{max-width:640px;margin-bottom:44px}
+.section-head h2{font-size:clamp(1.8rem,3.4vw,2.5rem);margin-bottom:12px}
+.section-head p{color:var(--muted)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 26px;border-radius:999px;font-family:Montserrat,sans-serif;font-weight:700;font-size:.95rem;border:2px solid transparent;cursor:pointer;transition:.2s}
+.btn-primary{background:var(--orange);color:#fff}
+.btn-primary:hover{background:var(--orange-dark);transform:translateY(-2px)}
+.btn-ghost{border-color:#fff;color:#fff}
+.btn-ghost:hover{background:#fff;color:var(--navy-dark)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-dark)}
+
+/* Header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid #e6ebf3}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand img{height:54px;width:auto}
+.nav ul{display:flex;gap:28px;list-style:none;font-family:Montserrat,sans-serif;font-weight:600;font-size:.9rem}
+.nav ul a:hover{color:var(--orange)}
+.nav .btn{padding:10px 20px;font-size:.88rem}
+.menu-btn{display:none;background:none;border:0;font-size:1.7rem;color:var(--navy-dark);cursor:pointer}
+
+/* Hero */
+.hero{position:relative;color:#fff;padding:0;min-height:88vh;display:flex;align-items:center;
+  background:linear-gradient(100deg,rgba(14,42,85,.92) 0%,rgba(14,42,85,.75) 45%,rgba(14,42,85,.25) 100%),url("images/movers.jpg") center/cover no-repeat}
+.hero-inner{padding:90px 0;max-width:660px}
+.hero h1{color:#fff;font-size:clamp(2.2rem,5.4vw,3.8rem);margin-bottom:18px}
+.hero h1 span{color:var(--orange)}
+.hero p{font-size:1.12rem;color:#e3eaf7;margin-bottom:32px;max-width:540px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px}
+.badges{display:flex;flex-wrap:wrap;gap:10px}
+.badges span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:6px 14px;border-radius:999px;font-size:.82rem;font-weight:600}
+
+/* Strip */
+.strip{background:var(--navy);color:#fff;padding:0}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:26px 18px;text-align:center;border-right:1px solid rgba(255,255,255,.14)}
+.strip div:last-child{border:0}
+.strip strong{display:block;font-family:Montserrat,sans-serif;font-size:1.05rem;color:var(--orange)}
+.strip small{color:#cfdaf0;font-size:.85rem}
+
+/* Services */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;transition:.25s}
+.card:hover{transform:translateY(-6px)}
+.card img{height:210px;width:100%;object-fit:cover}
+.card-body{padding:24px;display:flex;flex-direction:column;flex:1}
+.card h3{font-size:1.2rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:.96rem;margin-bottom:16px}
+.card ul{list-style:none;margin-top:auto;font-size:.92rem}
+.card li{padding-left:24px;position:relative;margin-bottom:6px}
+.card li::before{content:"";position:absolute;left:0;top:8px;width:10px;height:10px;border-radius:50%;background:var(--orange)}
+
+/* Showcase */
+.soft{background:var(--soft)}
+.showcase{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.showcase figure{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);background:#fff}
+.showcase figure.wide{grid-column:1/-1}
+.showcase img{width:100%;height:100%;object-fit:cover}
+.showcase figcaption{padding:14px 20px;font-weight:600;font-family:Montserrat,sans-serif;font-size:.92rem;color:var(--navy-dark)}
+
+/* Trailer */
+.trailer{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.trailer-gallery{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.trailer-gallery img{border-radius:var(--radius);width:100%;height:100%;object-fit:cover;box-shadow:var(--shadow)}
+.trailer-gallery img:first-child{grid-column:1/-1;aspect-ratio:16/10}
+.trailer-gallery img:not(:first-child){aspect-ratio:4/3}
+.trailer h2{font-size:clamp(1.8rem,3.4vw,2.5rem);margin-bottom:14px}
+.trailer p{color:var(--muted);margin-bottom:20px}
+.trailer ul{list-style:none;margin-bottom:28px}
+.trailer li{padding:8px 0 8px 32px;position:relative;border-bottom:1px solid #e6ebf3;font-weight:500}
+.trailer li::before{content:"\2713";position:absolute;left:0;color:var(--orange);font-weight:800}
+
+/* Steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;counter-reset:s}
+.step{background:#fff;border-radius:var(--radius);padding:28px 24px;box-shadow:var(--shadow);counter-increment:s}
+.step::before{content:counter(s);display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--orange);color:#fff;font-family:Montserrat,sans-serif;font-weight:800;margin-bottom:16px}
+.step h3{font-size:1.05rem;margin-bottom:6px}
+.step p{color:var(--muted);font-size:.93rem}
+
+/* Areas */
+.areas{display:flex;flex-wrap:wrap;gap:10px}
+.areas span{background:var(--soft);border:1px solid #dfe6f2;padding:9px 18px;border-radius:999px;font-weight:600;font-size:.9rem;color:var(--navy)}
+
+/* Contact */
+.contact{background:linear-gradient(135deg,var(--navy-dark),var(--navy));color:#fff}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.contact h2{color:#fff;font-size:clamp(1.8rem,3.4vw,2.5rem);margin-bottom:14px}
+.contact p{color:#d6e0f3;margin-bottom:26px}
+.contact-lines a{display:block;font-family:Montserrat,sans-serif;font-weight:700;font-size:1.5rem;color:#fff;margin-bottom:6px}
+.contact-lines a small{display:block;font-size:.8rem;font-weight:600;color:var(--orange);letter-spacing:.1em;text-transform:uppercase}
+.contact-lines div{margin-bottom:22px}
+form{background:#fff;color:var(--ink);padding:32px;border-radius:var(--radius);box-shadow:0 20px 50px rgba(0,0,0,.25)}
+form h3{margin-bottom:18px}
+label{display:block;font-weight:600;font-size:.86rem;margin-bottom:6px}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid #cfd8e6;border-radius:10px;font:inherit;margin-bottom:16px;background:#fff}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--orange);border-color:transparent}
+textarea{min-height:100px;resize:vertical}
+form .btn{width:100%}
+.note{font-size:.8rem;color:var(--muted);margin-top:10px;text-align:center}
+
+/* Footer */
+footer{background:#081a38;color:#a9b8d4;padding:44px 0 28px;font-size:.9rem}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:center;margin-bottom:24px}
+.foot img{height:56px;background:#fff;border-radius:10px;padding:6px 12px}
+.foot a:hover{color:var(--orange)}
+.copy{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;text-align:center;font-size:.82rem}
+
+/* Floating WhatsApp */
+.wa{position:fixed;right:20px;bottom:20px;z-index:60;background:#25d366;color:#fff;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.3);transition:.2s}
+.wa:hover{transform:scale(1.08)}
+.wa svg{width:32px;height:32px;fill:#fff}
+
+@media(max-width:960px){
+  .cards,.steps{grid-template-columns:1fr 1fr}
+  .trailer,.contact-grid{grid-template-columns:1fr;gap:36px}
+  .strip .wrap{grid-template-columns:1fr 1fr}
+  .strip div:nth-child(2){border-right:0}
+  .strip div{border-bottom:1px solid rgba(255,255,255,.14)}
+}
+@media(max-width:700px){
+  section{padding:60px 0}
+  .menu-btn{display:block}
+  .nav ul{display:none;position:absolute;top:74px;left:0;right:0;background:#fff;flex-direction:column;gap:0;padding:8px 4%;border-bottom:1px solid #e6ebf3}
+  .nav ul.open{display:flex}
+  .nav ul li a{display:block;padding:14px 0;border-bottom:1px solid #eef2f8}
+  .nav .btn.desktop{display:none}
+  .cards,.steps,.showcase{grid-template-columns:1fr}
+  .showcase figure.wide{grid-column:auto}
+  .hero{min-height:auto}
+  .hero-inner{padding:64px 0}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand" aria-label="Touchline Removals home"><img src="images/logo.png" alt="Touchline Removals logo"></a>
+    <ul id="menu">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Our Work</a></li>
+      <li><a href="#trailer">Trailer Hire</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="tel:0625522935" class="btn btn-primary desktop">Call 062 552 2935</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-inner">
+      <p class="eyebrow">Cape Town &middot; Removals &amp; Clearance</p>
+      <h1>Moving, clearing or hauling? <span>We load. We drive. Done.</span></h1>
+      <p>Furniture removals, rubble and building waste, garden clearing and trailer hire across Cape Town and surrounds. Same day service, seven days a week.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/27625522935?text=Hi%20Touchline%20Removals%2C%20I%20need%20a%20quote." target="_blank" rel="noopener">WhatsApp for a Quote</a>
+        <a class="btn btn-ghost" href="tel:0625522935">Call Ronnie</a>
+      </div>
+      <div class="badges"><span>Same day service</span><span>Open 7 days</span><span>No job too small</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    <div><strong>7 Days</strong><small>Available every day</small></div>
+    <div><strong>Same Day</strong><small>Fast response</small></div>
+    <div><strong>Cape Town</strong><small>And surrounding areas</small></div>
+    <div><strong>Free Quotes</strong><small>Call or WhatsApp</small></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">What We Do</p>
+      <h2>Three services. One reliable team.</h2>
+      <p>From a single fridge to a full house, and from a garden cutback to a pile of building rubble.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <img src="images/movers.jpg" alt="Team carrying boxes and a couch to a removal truck" loading="lazy">
+        <div class="card-body">
+          <h3>Furniture Removals</h3>
+          <p>Houses, flats and offices. Careful handling from your door to the next one.</p>
+          <ul><li>Home and flat moves</li><li>Single items and appliances</li><li>Loading and offloading</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        <img src="images/rubble.jpg" alt="Rubble and garden waste loaded onto a bakkie" loading="lazy">
+        <div class="card-body">
+          <h3>Rubble &amp; Building Waste</h3>
+          <p>We load, haul and dispose so your site or yard stays clear.</p>
+          <ul><li>Bricks, rubble and sand</li><li>Renovation leftovers</li><li>Old fittings and debris</li></ul>
+        </div>
+      </article>
+      <article class="card">
+        <img src="images/appliances.jpg" alt="Fridge and washing machine being loaded onto a truck" loading="lazy">
+        <div class="card-body">
+          <h3>Garden &amp; Yard Clearing</h3>
+          <p>Branches, cuttings and unwanted items taken off your property.</p>
+          <ul><li>Garden waste removal</li><li>Yard and garage clear-outs</li><li>Old appliances collected</li></ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="soft">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Our Work</p>
+      <h2>Handled with care, finished clean.</h2>
+    </div>
+    <div class="showcase">
+      <figure class="wide"><img src="images/banner.jpg" alt="Touchline Removals truck with Table Mountain behind" loading="lazy"><figcaption>Cape Town's reliable partner for removals and clearance</figcaption></figure>
+      <figure><img src="images/rubble.jpg" alt="Before and after rubble removal" loading="lazy"><figcaption>Before and after: rubble and garden waste</figcaption></figure>
+      <figure><img src="images/appliances.jpg" alt="Loading a fridge and washing machine" loading="lazy"><figcaption>Appliances loaded safely and secured</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="trailer">
+  <div class="wrap trailer">
+    <div class="trailer-gallery">
+      <img src="images/trailer-loaded.jpg" alt="Green trailer loaded with furniture under a cargo net" loading="lazy">
+      <img src="images/trailer-1.jpg" alt="Empty green trailer with high side rails" loading="lazy">
+      <img src="images/trailer-2.jpg" alt="Green trailer hitched behind a white bakkie" loading="lazy">
+    </div>
+    <div>
+      <p class="eyebrow">Trailer Hire</p>
+      <h2>Need to haul it yourself? Hire our trailer.</h2>
+      <p>A sturdy open trailer with high safety rails and a cargo net. Good for furniture, garden waste, building material and store runs.</p>
+      <ul>
+        <li>High side rails and secure load area</li>
+        <li>Cargo net to keep loads tied down</li>
+        <li>Flexible hire, ask for today's rate</li>
+      </ul>
+      <a class="btn btn-navy" href="https://wa.me/27615075919?text=Hi%2C%20I%20would%20like%20to%20hire%20the%20trailer." target="_blank" rel="noopener">Book Trailer: 061 507 5919</a>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="soft">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">How It Works</p>
+      <h2>From first message to cleared yard in four steps.</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Message us</h3><p>Call or WhatsApp with what needs to move and where.</p></div>
+      <div class="step"><h3>Get a quote</h3><p>Send a photo if you can. We give you a clear price.</p></div>
+      <div class="step"><h3>We arrive</h3><p>Same day where possible, with the truck ready to load.</p></div>
+      <div class="step"><h3>Job done</h3><p>Loaded, delivered or disposed. Your space left tidy.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="areas">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Where We Work</p>
+      <h2>Serving Cape Town and surrounding areas.</h2>
+      <p>Not sure if we cover your suburb? Send a message and we will confirm.</p>
+    </div>
+    <div class="areas">
+      <span>Cape Town CBD</span><span>Southern Suburbs</span><span>Northern Suburbs</span><span>Atlantic Seaboard</span><span>Bellville</span><span>Milnerton</span><span>Table View</span><span>Cape Flats</span><span>Somerset West</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">Get a Quote</p>
+      <h2>Tell us what you need moved.</h2>
+      <p>Fill in the form and it opens WhatsApp with your details ready to send. Or call us directly.</p>
+      <div class="contact-lines">
+        <div><a href="tel:0625522935"><small>Removals &amp; Clearance (Ronnie)</small>062 552 2935</a></div>
+        <div><a href="tel:0615075919"><small>Trailer Hire</small>061 507 5919</a></div>
+        <div><small style="color:#d6e0f3">Available 7 days &middot; Cape Town &amp; surrounding areas</small></div>
+      </div>
+    </div>
+    <form id="quoteForm">
+      <h3>Request a quote</h3>
+      <label for="name">Your name</label>
+      <input id="name" required placeholder="Full name">
+      <label for="service">Service</label>
+      <select id="service">
+        <option>Furniture removal</option>
+        <option>Rubble / building waste</option>
+        <option>Garden / yard clearing</option>
+        <option>Trailer hire</option>
+        <option>Other</option>
+      </select>
+      <label for="from">Pick-up suburb</label>
+      <input id="from" required placeholder="e.g. Woodstock">
+      <label for="to">Drop-off suburb (if any)</label>
+      <input id="to" placeholder="e.g. Claremont">
+      <label for="details">What needs to move?</label>
+      <textarea id="details" placeholder="Items, number of rooms, stairs, access..."></textarea>
+      <button class="btn btn-primary" type="submit">Send via WhatsApp</button>
+      <p class="note">Opens WhatsApp. Nothing is stored on this site.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <img src="images/logo.png" alt="Touchline Removals">
+      <div>Removals &amp; Clearance: <a href="tel:0625522935">062 552 2935</a><br>Trailer Hire: <a href="tel:0615075919">061 507 5919</a></div>
+      <div><a href="#services">Services</a> &middot; <a href="#work">Our Work</a> &middot; <a href="#trailer">Trailer Hire</a> &middot; <a href="#contact">Contact</a></div>
+    </div>
+    <p class="copy">&copy; <span id="yr"></span> Touchline Removals, Cape Town. All rights reserved.</p>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/27625522935?text=Hi%20Touchline%20Removals%2C%20I%20need%20a%20quote." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.19 1.6 6.02L4 29l8.13-1.57a12 12 0 0 0 3.9.65h.01C22.68 28.08 28 22.68 28 16.04 28 9.4 22.68 3 16.04 3Zm0 22.03h-.01a10 10 0 0 1-5.1-1.4l-.37-.22-4.82.93.99-4.7-.24-.38a9.97 9.97 0 0 1-1.54-5.23c0-5.5 4.5-9.98 10.05-9.98a9.98 9.98 0 0 1 9.98 10c0 5.5-4.5 9.98-9.94 9.98Zm5.47-7.47c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.95 1.17-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5a9.1 9.1 0 0 1-1.68-2.1c-.18-.3 0-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.25-.25-.58-.5-.5-.68-.5h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.03-1.05 2.5 0 1.48 1.08 2.9 1.23 3.1.15.2 2.12 3.24 5.14 4.54.72.31 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.13-.28-.2-.58-.35Z"/></svg>
+</a>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+const menu = document.getElementById('menu');
+document.getElementById('menuBtn').addEventListener('click', () => menu.classList.toggle('open'));
+menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
+
+document.getElementById('quoteForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const v = id => document.getElementById(id).value.trim();
+  const lines = [
+    'Hi Touchline Removals, I would like a quote.',
+    'Name: ' + v('name'),
+    'Service: ' + v('service'),
+    'Pick-up: ' + v('from'),
+    v('to') ? 'Drop-off: ' + v('to') : '',
+    v('details') ? 'Details: ' + v('details') : ''
+  ].filter(Boolean).join('\n');
+  const number = v('service') === 'Trailer hire' ? '27615075919' : '27625522935';
+  window.open('https://wa.me/' + number + '?text=' + encodeURIComponent(lines), '_blank');
+});
+</script>
+</body>
+</html>
